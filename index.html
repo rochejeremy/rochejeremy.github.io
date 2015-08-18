@@ -43,31 +43,43 @@ layout: null
                   
                   <div class="twelve columns">
     <h3><div style="font-family: 'Lobster', cursive;">
-    <br>Jeremy Roche
+    <a href="http://www.jeremyroche.net/" style="text-decoration:none;"><div style="color:black;">Jeremy Roche</div></a>
     </div></h3>
                     <hr></hr>
                   </div>
 
 
           <div class="row">
-                  
+                  <div class="eight columns">
+
+{% for post in site.posts limit 25 %}
+    
+      <h2> {{ post.title }} </h2>
+       
+       {{ post.content }}
+    
+  {% endfor %}
+
+
+                  </div>                
   
-                  <div class="twelve columns">
+
+
+                  <div class="four columns">
+                     <b>Recent Posts</b> 
+                    <hr></hr>
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 5 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
+
+
+     
     </li>
   {% endfor %}
 
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
+  
 </ul>
 
 
@@ -85,7 +97,7 @@ layout: null
           <div class="row">
 
                   <div class="twelve columns" style="text-align: center;">
-                      <a href="https://www.linkedin.com/in/jdroche"><i style="padding: 15x;" class="fa fa-linkedin fa-4x"></i></a>
+                      <a href="https://www.linkedin.com/in/jdroche" style="text-decoration:none;"><i style="padding: 15x;" class="fa fa-linkedin fa-4x"></i></a>
                       <a href="https://twitter.com/rochejeremy"><i style="padding: 15px;" class="fa fa-twitter fa-4x"></i></a>
                       <a href="https://plus.google.com/u/0/117753035995872635350/reviews/p/pub"><i style="padding: 15px;" class="fa fa-google-plus fa-4x"></i></a> 
                       <a href="http://blog.jeremyroche.net"><i style="padding: 15px;" class="fa fa-pencil-square-o fa-4x"></i></a>
