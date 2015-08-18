@@ -4,5 +4,24 @@
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 <p>I will be moving to Jykyl</p>
+
+<ul>
+
+	{% for post in site.posts %}
+
+		<li>
+			<a href="{{ post.url }}">{{post.title }}</a>
+		</li>
+
+	{% endfor $}
+
+</ul>
+
+
+
+
+
+
+
 </body>
 </html>
