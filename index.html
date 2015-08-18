@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,6 +61,13 @@ layout: null
       {{ post.excerpt }}
     </li>
   {% endfor %}
+
+  % for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
 </ul>
 
 
@@ -80,6 +88,7 @@ layout: null
                       <a href="https://www.linkedin.com/in/jdroche"><i style="padding: 15x;" class="fa fa-linkedin fa-4x"></i></a>
                       <a href="https://twitter.com/rochejeremy"><i style="padding: 15px;" class="fa fa-twitter fa-4x"></i></a>
                       <a href="https://plus.google.com/u/0/117753035995872635350/reviews/p/pub"><i style="padding: 15px;" class="fa fa-google-plus fa-4x"></i></a> 
+                      <a href="http://blog.jeremyroche.net"><i style="padding: 15px;" class="fa fa-pencil-square-o fa-4x"></i></a>
                   </div>
                   
                   
