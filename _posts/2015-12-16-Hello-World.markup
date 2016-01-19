@@ -1,0 +1,9 @@
+---
+---
+
+
+Hello World
+
+({{ site.url }}/images/hello.jpg)
+
+{{ page.date }}
