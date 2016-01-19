@@ -3,3 +3,5 @@ name: Jeremy Roche Blog
 author: Jeremy Roche
 url: http://blog.jeremyroche.net
 includes_dir: ./_includes
+gems:
+  - jekyll-feed
