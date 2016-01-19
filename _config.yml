@@ -2,3 +2,4 @@ page.date : YYYY-MM-DD HH:MM:SS +0500
 name: Jeremy Roche Blog
 author: Jeremy Roche
 url: http://blog.jeremyroche.net
+includes_dir: ./_includes
