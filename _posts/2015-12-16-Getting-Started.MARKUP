@@ -1,14 +1,28 @@
 ---
 layout: null
 ---
+<head>
+<meta name="twitter:card" content="Summary" />
+<meta name="twitter:site" content="@rochejeremy" />
+<meta name="twitter:creator" content="@rochejeremy" />
+<meta property="og:url" content="http://blog.jeremyroche.net/2015/12/16/Hello-World.html" />
+<meta property="og:title" content="Getting Started" />
+<meta property="og:description" content="My Hello World implementation of twitter card and web api." />
+<meta property="og:image" content="https://s3.amazonaws.com/jeremyroche.net/images/387562909_752da1da1e_z.jpg" />
 
 <img class="u-max-full-width" src="	
-https://s3.amazonaws.com/jeremyroche.net/images/472097903_b781a0f4f8.jpg"></img>
+https://s3.amazonaws.com/jeremyroche.net/images/387562909_752da1da1e_z.jpg"></img>
 
 <br><hr>
 
 
-Getting Started
+This is my getting started post. I have moved my blog to github.io and need to create post templates to render skeleton bolierplate I am using for main webpage.
+
+The following are the list of things to do
+* fix headers and footers for posting
+* create variables for common post elements (image, meta, description, excerpt, etc)
+* add forward and back navigation
+
 
 
 {{site.author}}
