@@ -1,7 +1,6 @@
 ---
-layout: null
 title: My Third Post
-layout: post
+layout: posts
 ---
 <html?
 <head>
