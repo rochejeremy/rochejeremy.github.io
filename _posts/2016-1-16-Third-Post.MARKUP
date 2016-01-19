@@ -3,7 +3,7 @@ layout: null
 title: My Third Post
 layout: post
 ---
-
+<html?
 <head>
 <meta name="twitter:card" content="Summary" />
 <meta name="twitter:site" content="@rochejeremy" />
@@ -16,9 +16,12 @@ layout: post
 <img class="u-max-full-width" src="	
 https://s3.amazonaws.com/jeremyroche.net/images/{{variable.postfilename}}"></img>
 </head>
-<br><hr>
+<body>
 
-{{ page.title }}
+
+<h1>{{ page.title }}<h1>
+
+<br><hr>
 
 Third Post Testing RSS and Formatting.
 
