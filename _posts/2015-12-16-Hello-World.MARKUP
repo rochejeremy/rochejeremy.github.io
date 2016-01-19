@@ -4,8 +4,6 @@
 
 Hello World
 
-({{ site.url }}/images/hello.jpg)
+({{ site.baseurl }}/images/hello.jpg)
 
-{{ page.date }}
-
-{{post.author}}
+{{site.author}}
