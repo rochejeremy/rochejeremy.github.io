@@ -7,3 +7,12 @@ Hello World
 <img src="http://{{ site.baseurl }}/images/hello.jpg"></img>
 
 {{site.author}}
+
+
+If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}&via=rochejeremy" 
+   target="_blank">
+  share it with your followers</a> 
+or 
+<a href="https://twitter.com/rochejeremy">
+  follow me on Twitter</a>!
