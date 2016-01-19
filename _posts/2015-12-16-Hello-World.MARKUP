@@ -2,9 +2,11 @@
 layout: null
 ---
 
+<img src="http://{{ site.baseurl }}/images/hello.jpg"></img>
+
+
 Hello World
 
-<img src="http://{{ site.baseurl }}/images/hello.jpg"></img>
 
 {{site.author}}
 
