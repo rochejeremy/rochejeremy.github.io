@@ -4,6 +4,6 @@
 
 Hello World
 
-<img src="http://{{ site.baseurl }}/images/hello.jpg></img>
+<img src="http://{{ site.baseurl }}/images/hello.jpg"></img>
 
 {{site.author}}
