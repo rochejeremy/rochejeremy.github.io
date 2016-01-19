@@ -8,5 +8,7 @@ Hello World
 
 {{site.author}}
 
+{% include twitter_plug.html %}
+
 
 
