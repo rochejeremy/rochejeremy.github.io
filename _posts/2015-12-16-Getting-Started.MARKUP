@@ -29,7 +29,7 @@ for now there is a better formatted list in this google doc https://docs.google.
 
 {{site.author}}
 
-{% include twitter_plug.html %}
+{% include twitter_plug.html %} 
 
 </body>
 </html>
