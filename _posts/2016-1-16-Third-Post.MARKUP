@@ -5,7 +5,7 @@ layout: null
 <meta name="twitter:card" content="Summary" />
 <meta name="twitter:site" content="@rochejeremy" />
 <meta name="twitter:creator" content="@rochejeremy" />
-<meta property="og:url" content="{ site.url }}{{ page.url }}" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:description" content="{{variable.snippet}}" />
 <meta property="og:image" content="https://s3.amazonaws.com/jeremyroche.net/images/{{variable.postfilename}}" />
