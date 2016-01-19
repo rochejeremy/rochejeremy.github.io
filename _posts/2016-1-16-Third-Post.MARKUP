@@ -1,6 +1,9 @@
 ---
 layout: null
+title: This is my title
+layout: post
 ---
+
 <head>
 <meta name="twitter:card" content="Summary" />
 <meta name="twitter:site" content="@rochejeremy" />
@@ -21,7 +24,7 @@ Third Post Testing RSS and Formatting.
 
 
 
-{{site.author}}
+
 
 {% include twitter_plug.html %} 
 
