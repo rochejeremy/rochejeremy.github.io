@@ -2,7 +2,7 @@
 title: My Third Post
 layout: posts
 ---
-<html?
+<html>
 <head>
 <meta name="twitter:card" content="Summary" />
 <meta name="twitter:site" content="@rochejeremy" />
