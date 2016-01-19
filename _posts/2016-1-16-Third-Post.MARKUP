@@ -5,25 +5,19 @@ layout: null
 <meta name="twitter:card" content="Summary" />
 <meta name="twitter:site" content="@rochejeremy" />
 <meta name="twitter:creator" content="@rochejeremy" />
-<meta property="og:url" content="http://blog.jeremyroche.net/2015/12/16/Hello-World.html" />
-<meta property="og:title" content="Getting Started" />
-<meta property="og:description" content="Getting Started post after moving to github.io. List of things to do" />
-<meta property="og:image" content="https://s3.amazonaws.com/jeremyroche.net/images/387562909_752da1da1e_z.jpg" />
+<meta property="og:url" content="{{variable.blogposturl}}" />
+<meta property="og:title" content="{{variable.posttitle}}" />
+<meta property="og:description" content="{{variable.snippet}}" />
+<meta property="og:image" content="https://s3.amazonaws.com/jeremyroche.net/images/{{variable.postfilename}}" />
 
 <img class="u-max-full-width" src="	
-https://s3.amazonaws.com/jeremyroche.net/images/387562909_752da1da1e_z.jpg"></img>
+https://s3.amazonaws.com/jeremyroche.net/images/{{variable.postfilename}}"></img>
 </head>
 <br><hr>
 
+{{variable.posttitle}}
 
-This is my getting started post. I have moved my blog to github.io and need to create post templates to render skeleton bolierplate I am using for main webpage.
-
-The following are the list of things to do
-* fix headers and footers for posting
-* create variables for common post elements (image, meta, description, excerpt, etc)
-* add forward and back navigation
-
-for now there is a better formatted list in this google doc https://docs.google.com/document/d/1s3-bfsEgFzPZrUsjvjBd4ubLW2lAxiZiiZxJd_EsLzU/edit?usp=sharing
+Third Post Testing RSS and Formatting.
 
 
 
