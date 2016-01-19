@@ -1,8 +1,1 @@
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
-      
-     page.date:  YYYY-MM-DD HH:MM:SS +0500
+page.date : YYYY-MM-DD HH:MM:SS +0500
