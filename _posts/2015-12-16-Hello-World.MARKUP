@@ -7,7 +7,7 @@ layout: null
 <meta name="twitter:creator" content="@rochejeremy" />
 <meta property="og:url" content="http://blog.jeremyroche.net/2015/12/16/Hello-World.html" />
 <meta property="og:title" content="Hello World" />
-<meta property="og:description" content="Hello World." />
+<meta property="og:description" content="My Hello World implementation of twitter card and web api. Thanks @joshualande for your post http://joshualande.com/jekyll-github-pages-poole/" />
 <meta property="og:image" content="https://s3.amazonaws.com/jeremyroche.net/images/472097903_b781a0f4f8.jpg" />
 
 
