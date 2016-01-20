@@ -70,10 +70,10 @@ layout: null
 
 
   {% if page.previous.url %}
-    <a  style="text-decoration:none;" class="fa fa-arrow-circle-left" href="{{page.previous.url}}"> {{page.previous.title}}</a>
+    <a  style="text-decoration:none;" href="{{page.previous.url}}"> <i class="fa fa-arrow-circle-left"></i>{{page.previous.title}}</a>
   {% endif %}
   {% if page.next.url %}
-    <a style="text-decoration:none;" class="fa fa-arrow-circle-right" href="{{page.next.url}}">{{page.next.title}}</a>
+    <a style="text-decoration:none;" href="{{page.next.url}}">{{page.next.title}}<i class="fa fa-arrow-circle-right"></i></a>
   {% endif %}
 
 </div>
