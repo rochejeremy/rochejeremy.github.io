@@ -1,34 +1,25 @@
 ---
-title: My Third Post
-layout: posts
+layout: post
+title: Using the Web Icons
+category: Design
+
+excerpt: Quick overview on how to use the Typicon web font icons included with this template. 
+
 ---
-<html>
-<head>
-<meta name="twitter:card" content="Summary" />
-<meta name="twitter:site" content="@rochejeremy" />
-<meta name="twitter:creator" content="@rochejeremy" />
-<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta property="og:title" content="{{ page.title }}" />
-<meta property="og:description" content="{{variable.snippet}}" />
-<meta property="og:image" content="https://s3.amazonaws.com/jeremyroche.net/images/{{variable.postfilename}}" />
-
-<img class="u-max-full-width" src="	
-https://s3.amazonaws.com/jeremyroche.net/images/{{variable.postfilename}}"></img>
-</head>
-<body>
-
 
 <h1>{{ page.title }}<h1>
 
 <br><hr>
 
-Third Post Testing RSS and Formatting.
+{{ page.title }}
+{{ page.excerpt }}
+{{ page.category }}
 
 
 
 
 
-{% include twitter_plug.html %} 
+
 
 </body>
 </html>
