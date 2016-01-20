@@ -47,6 +47,12 @@ layout: null
 <body>
 <div class="container">
 
+<div class="twelve columns">
+    <h3><div style="font-family: 'Lobster', cursive;">
+    <a href="http://www.jeremyroche.net/" style="text-decoration:none;"><div style="color:black;">Jeremy Roche</div></a>
+    </div></h3>
+                    <hr></hr>
+                  </div>
 
 
 
