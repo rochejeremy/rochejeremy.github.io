@@ -63,11 +63,6 @@ layout: null
 
 <p>Hello World ... Thanks @joshualande for your post <a href="http://joshualande.com/jekyll-github-pages-poole">http://joshualande.com/jekyll-github-pages-poole</a></p>
 
-
-
-
-{% include twitter_plug.html %}
-
 <div id="post-nav" class="clearfix">
   {% if page.previous.url %} 
     <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
@@ -76,6 +71,11 @@ layout: null
     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
   {% endif %} 
 </div>
+
+
+{% include twitter_plug.html %}
+
+
 
 </body>
 </html>
