@@ -53,7 +53,7 @@ layout: null
     <a href="http://www.jeremyroche.net/" style="text-decoration:none;"><div style="color:black;">Jeremy Roche</div></a>
     </div></h3>
                     <hr></hr>
-                  </div>
+                  <div class="twelve columns">
 
 
 
@@ -76,6 +76,6 @@ layout: null
     <a style="text-decoration:none;" class="fa fa-arrow-circle-right fa-4x" href="{{page.next.url}}">{{page.next.title}}</a>
   {% endif %}
 
-
+</div>
 </body>
 </html>
