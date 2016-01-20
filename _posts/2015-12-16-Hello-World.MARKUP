@@ -68,13 +68,17 @@ layout: null
 
 {% include twitter_plug.html %}
 
-
+</div>
+<div class="six columns">
   {% if page.previous.url %}
     <a  style="text-decoration:none;" href="{{page.previous.url}}"> <i class="fa fa-arrow-circle-left"></i>{{page.previous.title}}</a>
   {% endif %}
+  </div>
+  <div class="six columns">
   {% if page.next.url %}
-    <a style="text-decoration:none;" href="{{page.next.url}}">{{page.next.title}}<i class="fa fa-arrow-circle-right"></i></a>
+    <a style="text-decoration:none;" href="{{page.next.url}}"><i class="fa fa-arrow-circle-right"></i>{{page.next.title}}</a>
   {% endif %}
+  <div>
 
 </div>
 </body>
