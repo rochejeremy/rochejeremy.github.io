@@ -65,7 +65,7 @@ layout: null
 <p>Hello World ... This is mostly my sandbox and less about content. Thus all of the spelling mistakes and poor formating.  It should get better as
 I go along.  
 
-So far the blog is buit using skeleton boiler plate "A dead simple, responsive boilerplate" and hosted on github pages. Images and main web
+So far the blog is buit using skeleton boiler plate "A dead simple, responsive boilerplate" <a href="http://getskeleton.com/#examples">http://getskeleton.com/#examples</a>and hosted on github pages. Images and main web
 are on S3.
 
 I have a number of items left before this is anywhere close to where I want it to be.  Most importantly I am learning as I go.
