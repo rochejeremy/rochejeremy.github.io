@@ -44,7 +44,7 @@ layout: null
 
 
 </head>
-
+<body>
 <div class="container">
 
 
@@ -56,7 +56,7 @@ https://s3.amazonaws.com/jeremyroche.net/images/472097903_b781a0f4f8.jpg"></img>
 <br><hr>
 
 
-Hello World ... Thanks @joshualande for your post http://joshualande.com/jekyll-github-pages-poole/
+<p>Hello World ... Thanks @joshualande for your post <a href="http://joshualande.com/jekyll-github-pages-poole">http://joshualande.com/jekyll-github-pages-poole</a></p>
 
 
 
@@ -65,4 +65,3 @@ Hello World ... Thanks @joshualande for your post http://joshualande.com/jekyll-
 
 </body>
 </html>
-
