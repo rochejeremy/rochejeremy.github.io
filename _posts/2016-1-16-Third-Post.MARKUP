@@ -6,21 +6,5 @@ category: Design
 excerpt: Quick overview on how to use the Typicon web font icons included with this template. 
 
 ---
-<html>
-<body>
-<h1>{{ page.title }}<h1>
 
-<br><hr>
-
-{{ page.title }}
-{{ page.excerpt }}
-{{ page.category }}
-
-
-
-
-
-
-
-</body>
-</html>
+Third Post Markup Test
