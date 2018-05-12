@@ -1,1 +1,16 @@
-###post##$
+
+---
+layout: post
+title: 2018 Test Post
+#category: Design
+
+#excerpt: Quick overview on how to use the Typicon web font icons included with this template.
+
+---
+
+<p>I am making some progress, but there is more to do.  I started a list here <a href="https://docs.google.com/document/d/1s3-bfsEgFzPZrUsjvjBd4ubLW2lAxiZiiZxJd_EsLzU/edit?usp=sharing">https://docs.google.com/document/d/1s3-bfsEgFzPZrUsjvjBd4ubLW2lAxiZiiZxJd_EsLzU/edit?usp=sharing
+</a><br></p>
+
+<p>I am getting the hang of the Jekyll syntax and I am starting to understand the modules. There is more to experiment with</p>
+
+##post##
